@@ -22,9 +22,6 @@ os.system("cd dotfiles/.config && cp -f -r * ~/.config")
 os.system("cd dotfiles/ && cp -f .zshrc ~ && cp -f .p10k.zsh ~ && cp -f .xsessionrc ~")
 
 
-# Install hack nerd font
-#!/bin/bash
-
 # Download Hack Nerd Font
 os.system("wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip")
 

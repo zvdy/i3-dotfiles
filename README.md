@@ -6,29 +6,15 @@ i3 dotfiles with nord theme.
 
 ## Installation
 
-> Install dependencies
-
-```bash
-sudo apt install i3 polybar rofi zsh feh neofetch kitty fonts-powerline oh-my-zsh
-
-```
-
-> Clone the repository
-    
 ```bash
 git clone https://github.com/zvdy/i3-dotfiles
+cd i3-dotfiles
 ```
 
-> Move the .config into your own .config folder
+### Run the install script
 
 ```bash
-cd i3-dotfiles/dotfiles/.config && mv * ~/.config
-``` 
-
-> Move the .zshrc and p10k.zsh into your home folder
-
-```bash
-cd i3-dotfiles/dotfiles && mv .zshrc ~ && mv p10k.zsh ~
+python3 install.py
 ```
 
 ### Dependencies
